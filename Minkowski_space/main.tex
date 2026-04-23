@@ -76,9 +76,22 @@
 \section{接ベクトル}
 一般的に物理でベクトルというときはこれのこと。
 \subsection{微分作用素による接ベクトルの定式化}
+$\mathbb{R}^3$のアフィン空間(ベクトルの先端点の集合)を考える。
+点$(x^1,x^2,x^3)\in\mathbb{R}^3$が1つの物理的状態を表すと解釈する。
 
 \section{双対空間}
 \section{Lorentz変換}
+\begin{itembox}[l]{Lorentz計量}
+    4次元のMinkowski時空$M^4$のデカルト座標を$(x^0,x^1,x^2,x^3)$と表す。時空間の計量を、
+    \begin{equation}
+        \tensor{\eta}{_{\mu\nu}}=\mathrm{diag}(+\ -\ -\ -)
+    \end{equation}
+    とする。
+\end{itembox}
+この空間での内積は、
+\begin{equation}
+    (\bm{x},\bm{x}^{\prime})=\tensor{\eta}{_{\mu\nu}}x^{\mu}x^{\prime\nu}=x_{\nu}x^{\prime\nu}=x^{\mu}{x}^{\prime}_\mu
+\end{equation}
 
 
 \end{document}
